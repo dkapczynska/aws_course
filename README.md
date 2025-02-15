@@ -1,14 +1,12 @@
-# Welcome to your CDK TypeScript project
+# Taks 2 
 
-This is a blank project for CDK development with TypeScript.
+I encountered a lot of problems with building the application, as my primary programming language is python, so the Javascript / Typescript was definitely a challenge.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+I managed to build the application and deploy it manually, and you can find it here:
 
-## Useful commands
+Manual deployment: https://cloud-dev-task2-manual-dep.s3.eu-west-3.amazonaws.com/index.html
+CloudFront distribution:  https://d32l2wb1rxd4ux.cloudfront.net/
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
+However, I encountered some problems with automated deployment using CDK. I managed to deploy it with CDK to S3 bucket, but there is some missmatch with permissions.
+CDK deployment: https://cloud-dev-task2-automated-dep-20250215.s3.eu-west-3.amazonaws.com/dist/index.html
+CDK distribution: -
